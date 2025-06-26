@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-12 09:16+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\main\models.py:6 .\main\models.py:18 .\main\models.py:30
+#: .\main\models.py:42
+msgid "Name (RU)"
+msgstr ""
+
+#: .\main\models.py:7 .\main\models.py:19 .\main\models.py:31
+#: .\main\models.py:43
+msgid "Name (EN)"
+msgstr ""
+
+#: .\main\models.py:8 .\main\models.py:20 .\main\models.py:32
+#: .\main\models.py:44
+msgid "Description (RU)"
+msgstr ""
+
+#: .\main\models.py:9 .\main\models.py:21 .\main\models.py:33
+#: .\main\models.py:45
+msgid "Description (EN)"
+msgstr ""
+
+#: .\main\models.py:10 .\main\models.py:22 .\main\models.py:34
+#: .\main\models.py:46
+msgid "Price"
+msgstr ""
+
+#: .\main\models.py:11 .\main\models.py:23 .\main\models.py:35
+#: .\main\models.py:47
+msgid "Image"
+msgstr ""
+
+#: .\main\templates\main\apartments.html:19
+#: .\main\templates\main\appliance.html:19
+#: .\main\templates\main\computers.html:19 .\main\templates\main\index.html:78
+#: .\main\templates\main\phones.html:19
+msgid "Phone Repair Services"
+msgstr ""
+
+#: .\main\templates\main\apartments.html:20
+#: .\main\templates\main\appliance.html:20
+#: .\main\templates\main\computers.html:20 .\main\templates\main\phones.html:20
+msgid ""
+"Screen replacement, battery repair, diagnostics and more — fast and "
+"professional."
+msgstr ""
+
+#: .\main\templates\main\apartments.html:46
+#: .\main\templates\main\appliance.html:46
+#: .\main\templates\main\computers.html:46 .\main\templates\main\phones.html:46
+msgid "View options"
+msgstr ""
+
+#: .\main\templates\main\base.html:40
+msgid "Home"
+msgstr ""
+
+#: .\main\templates\main\base.html:41
+msgid "Phones"
+msgstr ""
+
+#: .\main\templates\main\base.html:43
+msgid "Computers"
+msgstr ""
+
+#: .\main\templates\main\base.html:45
+msgid "Appliance"
+msgstr ""
+
+#: .\main\templates\main\base.html:47
+msgid "Apartments"
+msgstr ""
+
+#: .\main\templates\main\base.html:96
+msgid "About"
+msgstr ""
+
+#: .\main\templates\main\base.html:100
+msgid "Contact"
+msgstr ""
+
+#: .\main\templates\main\base.html:104
+msgid "Terms of Use"
+msgstr ""
+
+#: .\main\templates\main\base.html:108
+msgid "Privacy Policy"
+msgstr ""
+
+#: .\main\templates\main\base.html:112
+msgid "Your Website 2023. All Rights Reserved."
+msgstr ""
+
+#: .\main\templates\main\index.html:21
+msgid "Reliable Repair Services for Your Home and Devices"
+msgstr ""
+
+#: .\main\templates\main\index.html:35
+msgid "Phone Repair"
+msgstr ""
+
+#: .\main\templates\main\index.html:36
+msgid "Fast and affordable repair of smartphones of all brands."
+msgstr ""
+
+#: .\main\templates\main\index.html:44
+msgid "PC & Laptop Repair"
+msgstr ""
+
+#: .\main\templates\main\index.html:45
+msgid "Diagnostics and repair of computers and laptops."
+msgstr ""
+
+#: .\main\templates\main\index.html:54
+msgid "Appliance Repair"
+msgstr ""
+
+#: .\main\templates\main\index.html:55
+msgid "Fixing washing machines, fridges, ovens and more."
+msgstr ""
+
+#: .\main\templates\main\index.html:63
+msgid "Apartment Repair"
+msgstr ""
+
+#: .\main\templates\main\index.html:64
+msgid "Minor renovations and maintenance works for flats."
+msgstr ""
+
+#: .\main\templates\main\index.html:79
+msgid ""
+"We repair screens, batteries, charging ports and other smartphone issues."
+msgstr ""
+
+#: .\main\templates\main\index.html:87
+msgid "PC and Laptop Repair"
+msgstr ""
+
+#: .\main\templates\main\index.html:88
+msgid "Hardware upgrades, virus removal, system reinstallation and more."
+msgstr ""
+
+#: .\main\templates\main\index.html:96
+msgid "Appliance Maintenance"
+msgstr ""
+
+#: .\main\templates\main\index.html:97
+msgid "Repair of washing machines, fridges, ovens and other home appliances."
+msgstr ""
+
+#: .\main\templates\main\index.html:105
+msgid "Apartment Renovations"
+msgstr ""
+
+#: .\main\templates\main\index.html:106
+msgid "Interior works, plumbing, electrical repairs and more."
+msgstr ""
+
+#: .\main\templates\main\index.html:114
+msgid "What our clients say"
+msgstr ""
+
+#: .\main\templates\main\index.html:121
+msgid "They fixed my laptop in one day. Highly recommend!"
+msgstr ""
+
+#: .\main\templates\main\index.html:129
+msgid "My washing machine works again like a charm."
+msgstr ""
+
+#: .\main\templates\main\index.html:137
+msgid "Quick and tidy repair in my flat. Very happy."
+msgstr ""
+
+#: .\services\settings.py:91
+msgid "English"
+msgstr ""
+
+#: .\services\settings.py:92
+msgid "Russian"
+msgstr ""

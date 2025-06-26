@@ -1,0 +1,54 @@
+{% extends 'main/base.html' %}
+
+{% load static %}
+{% load i18n %}
+{% load language %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block extra_css %}
+
+{% endblock %}
+
+{% block content %}
+
+    <header class="bg-dark py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-white">
+                <h1 class="display-4 fw-bolder">{% trans "service Repair Services" %}</h1>
+                <p class="lead fw-normal text-white-50 mb-0">{% trans "Screen replacement, battery repair, diagnostics and more — fast and professional." %}</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 mt-5 ">
+            {% for service in services %}
+                <div class="card mb-3 shadow-sm">
+                    <div class="row g-0">
+                        <div class="col-md-5">
+                            <img src="{{ service.image.url }}" class="img-fluid rounded-start" alt="">
+                        </div>
+                        <div class="col-md-7 d-flex flex-column">
+                            <div class="card-body">
+                                    <h5 class="card-title fw-bold">{{ service|i18n:"name" }}</h5>
+                                    <p class="card-text text-muted mb-2">{{ service.price }}</p>
+                                    <p class="card-text small">{{ service|i18n:"description" }}</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-0 text-end me-3 mb-2">
+                                <a href="{% url 'detail_page' service.slug %}" class="btn btn-outline-dark">{% trans "View options" %}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+
+{% endblock %}
+
+{% block extra_js %}
+
+{% endblock %}

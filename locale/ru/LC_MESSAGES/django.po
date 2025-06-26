@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-12 09:18+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+#: .\main\models.py:6 .\main\models.py:18 .\main\models.py:30
+#: .\main\models.py:42
+msgid "Name (RU)"
+msgstr "Название (РУ)"
+
+msgid "Name (EN)"
+msgstr "Название (АН)"
+
+msgid "Description (RU)"
+msgstr "Описание (РУ)"
+
+msgid "Description (EN)"
+msgstr "Описание (АН)"
+
+msgid "Price"
+msgstr "Цена"
+
+msgid "Image"
+msgstr "Изображение"
+
+msgid "Phone Repair Services"
+msgstr "Услуги по ремонту телефонов"
+
+msgid ""
+"Screen replacement, battery repair, diagnostics and more — fast and "
+"professional."
+msgstr "Замена экрана, ремонт аккумулятора, диагностика и многое другое — быстро и профессионально."
+
+msgid "View options"
+msgstr "Показать варианты"
+
+msgid "Home"
+msgstr "Главная"
+
+msgid "Phones"
+msgstr "Телефоны"
+
+msgid "Computers"
+msgstr "Компьютеры"
+
+msgid "Appliance"
+msgstr "Бытовая техника"
+
+msgid "Apartments"
+msgstr "Квартиры"
+
+msgid "About"
+msgstr "О нас"
+
+msgid "Contact"
+msgstr "Контакты"
+
+msgid "Terms of Use"
+msgstr "Условия использования"
+
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+msgid "Your Website 2023. All Rights Reserved."
+msgstr "Ваш сайт 2023. Все права защищены."
+
+msgid "Reliable Repair Services for Your Home and Devices"
+msgstr "Надёжные услуги ремонта для вашего дома и устройств"
+
+msgid "Phone Repair"
+msgstr "Ремонт телефонов"
+
+msgid "Fast and affordable repair of smartphones of all brands."
+msgstr "Быстрый и доступный ремонт смартфонов всех брендов."
+
+msgid "PC & Laptop Repair"
+msgstr "Ремонт ПК и ноутбуков"
+
+msgid "Diagnostics and repair of computers and laptops."
+msgstr "Диагностика и ремонт компьютеров и ноутбуков."
+
+msgid "Appliance Repair"
+msgstr "Ремонт бытовой техники"
+
+msgid "Fixing washing machines, fridges, ovens and more."
+msgstr "Ремонт стиральных машин, холодильников, духовых шкафов и прочей техники."
+
+msgid "Apartment Repair"
+msgstr "Ремонт квартир"
+
+msgid "Minor renovations and maintenance works for flats."
+msgstr "Небольшой ремонт и обслуживающие работы в квартирах."
+
+msgid ""
+"We repair screens, batteries, charging ports and other smartphone issues."
+msgstr "Мы ремонтируем экраны, аккумуляторы, зарядные порты и другие неисправности смартфонов."
+
+msgid "PC and Laptop Repair"
+msgstr "Ремонт ПК и ноутбуков"
+
+msgid "Hardware upgrades, virus removal, system reinstallation and more."
+msgstr "Апгрейд оборудования, удаление вирусов, переустановка системы и многое другое."
+
+msgid "Appliance Maintenance"
+msgstr "Обслуживание техники"
+
+msgid "Repair of washing machines, fridges, ovens and other home appliances."
+msgstr "Ремонт стиральных машин, холодильников, духовых шкафов и других бытовых приборов."
+
+msgid "Apartment Renovations"
+msgstr "Ремонт квартир"
+
+msgid "Interior works, plumbing, electrical repairs and more."
+msgstr "Отделочные работы, сантехника, электрика и прочие услуги."
+
+msgid "What our clients say"
+msgstr "Отзывы наших клиентов"
+
+msgid "They fixed my laptop in one day. Highly recommend!"
+msgstr "Они починили мой ноутбук за один день. Очень рекомендую!"
+
+msgid "My washing machine works again like a charm."
+msgstr "Моя стиральная машина снова работает как новенькая."
+
+msgid "Quick and tidy repair in my flat. Very happy."
+msgstr "Быстрый и аккуратный ремонт в моей квартире. Очень доволен."
+
+msgid "English"
+msgstr "Английский"
+
+msgid "Russian"
+msgstr "Русский"

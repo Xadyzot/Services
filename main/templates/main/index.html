@@ -1,0 +1,126 @@
+{% extends 'main/base.html' %}
+
+{% load static %}
+{% load i18n %}
+{% load language %}
+
+{% block title %}
+    home
+{% endblock %}
+
+{% block extra_css %}
+
+{% endblock %}
+
+{% block content %}
+
+    <header class="masthead">
+        <div class="container position-relative">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="text-center text-white">
+                        <h1 class="mb-5">{% translate "Reliable Repair Services for Your Home and Devices" %}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="features-icons bg-light text-center">
+        <div class="container">
+            <div class="row row-cols-4 justify-content-center">
+                {% for service in servicetypes %}
+                    <div class="col">
+                        <div class="shadow">
+                            <a href="{% url 'services' %}?type={{ service.slug }}"
+                               class="text-decoration-none text-black">
+                                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                                    <div class="d-flex"><i class="bi-phone m-auto text-primary"></i>
+                                    </div>
+                                    <h3>{{ service|i18n:"title" }}</h3>
+                                    <p class="lead mb-0">{{ service|i18n:"description" }}</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </section>
+
+    <section class="showcase">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-6 order-lg-2 text-white showcase-img"
+                     style="background-image: url('{% static 'assets/img/bg-showcase-1.jpg' %}')"></div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2>{% trans "Phone Repair Services" %}</h2>
+                    <p class="lead mb-0">{% trans "We repair screens, batteries, charging ports and other smartphone issues." %}</p>
+                </div>
+            </div>
+
+            <div class="row g-0">
+                <div class="col-lg-6 text-white showcase-img"
+                     style="background-image: url('{% static 'assets/img/bg-showcase-2.jpg' %}')"></div>
+                <div class="col-lg-6 my-auto showcase-text">
+                    <h2>{% trans "PC and Laptop Repair" %}</h2>
+                    <p class="lead mb-0">{% trans "Hardware upgrades, virus removal, system reinstallation and more." %}</p>
+                </div>
+            </div>
+
+            <div class="row g-0">
+                <div class="col-lg-6 order-lg-2 text-white showcase-img"
+                     style="background-image: url('{% static 'assets/img/bg-showcase-3.jpg' %}')"></div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2>{% trans "Appliance Maintenance" %}</h2>
+                    <p class="lead mb-0">{% trans "Repair of washing machines, fridges, ovens and other home appliances." %}</p>
+                </div>
+            </div>
+
+            <div class="row g-0">
+                <div class="col-lg-6 text-white showcase-img"
+                     style="background-image: url('{% static 'assets/img/bg-showcase-1.jpg' %}')"></div>
+                <div class="col-lg-6 my-auto showcase-text">
+                    <h2>{% trans "Apartment Renovations" %}</h2>
+                    <p class="lead mb-0">{% trans "Interior works, plumbing, electrical repairs and more." %}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials text-center bg-light">
+        <div class="container">
+            <h2 class="mb-5">{% trans "What our clients say" %}</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3"
+                             src="{% static 'assets/img/testimonials-1.jpg' %}" alt="..."/>
+                        <h5>Jessica</h5>
+                        <p class="font-weight-light mb-0">{% trans "They fixed my laptop in one day. Highly recommend!" %}</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3"
+                             src="{% static 'assets/img/testimonials-2.jpg' %}" alt="..."/>
+                        <h5>George</h5>
+                        <p class="font-weight-light mb-0">{% trans "My washing machine works again like a charm." %}</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3"
+                             src="{% static 'assets/img/testimonials-3.jpg' %}" alt="..."/>
+                        <h5>Emily</h5>
+                        <p class="font-weight-light mb-0">{% trans "Quick and tidy repair in my flat. Very happy." %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block extra_js %}
+{% endblock %}

@@ -1,7 +1,7 @@
 services:
   web:
     build: .
-    command: gunicorn asman.wsgi:application --bind 0.0.0.0:8000 --workers 3
+    command: gunicorn services.wsgi:application --bind 0.0.0.0:8000 --workers 3
     entrypoint: ["./entrypoint.sh"] 
     volumes:
       - .:/app
@@ -33,11 +33,7 @@ services:
     depends_on:
       - web
     restart: unless-stopped
+    
     # Add this line to use your custom entrypoint
     entrypoint: ["/docker-entrypoint.sh"]
-
-
-
-
-
 
